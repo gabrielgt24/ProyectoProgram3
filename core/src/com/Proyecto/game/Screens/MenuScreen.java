@@ -46,7 +46,8 @@ public class MenuScreen extends BaseScreen {
 
 			@Override
 			public void changed(ChangeEvent event, Actor actor) {
-				System.exit(0);				
+				juego.dispose();
+				System.exit(0);
 			}
 			
 		});

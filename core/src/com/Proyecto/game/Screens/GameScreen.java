@@ -100,6 +100,7 @@ public class GameScreen extends BaseScreen {
         mundo.dispose();
         texture.dispose();
         Over.dispose();
+
     }
     
     private boolean gameEnds() {

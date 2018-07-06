@@ -106,7 +106,7 @@ public class GameOverScreen extends BaseScreen{
 		gameover.remove();
 		reiniciar.remove();
 		mainMenu.remove();
-		stage.dispose();		
+		stage.dispose();
 	}
 
 }
